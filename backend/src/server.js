@@ -5,7 +5,7 @@ const cors = require("cors")
 const urlRoutes = require("./routes/url.routes")
 
 const app = express()
-const port = Number(process.env.PORT || 5060)
+const port = Number(process.env.PORT || 5050)
 const allowedOrigin = process.env.CORS_ORIGIN || "http://localhost:5173"
 
 app.use(
